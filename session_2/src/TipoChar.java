@@ -9,6 +9,23 @@ public class TipoChar {
 
         char caracterUnicode = '\u0021';
         System.out.println("Caracter Unicode: " + caracterUnicode);
+
+        //Caracteres especiales
+        char retornoCarro = '\r';
+        char nuevaLinea = '\n';
+        char tabulador = '\t';
+        char comillaSimple = '\'';
+        char comillaDoble = '\"';
+        char barraInvertida = '\\';
+        char retroceso = '\b';
+
+        System.out.println("Retorno de carro: " + retornoCarro);
+        System.out.println("Nueva linea: " + nuevaLinea);
+        System.out.println("Tabulador: " + tabulador);
+        System.out.println("Comilla simple: " + comillaSimple);
+        System.out.println("Comilla doble: " + comillaDoble);
+        System.out.println("Barra invertida: " + barraInvertida);
+        System.out.println("Retroceso: " + retroceso);
         
     }
 }
