@@ -21,5 +21,27 @@ public class ConversionTipos {
         String logicoStr = "true";
         boolean logicoBool = Boolean.parseBoolean(logicoStr);
         System.out.println("Valor logico: " + logicoBool);
+
+        int otroNumeroInt = 100;
+        System.out.println("Numero entero: " + otroNumeroInt);
+        String otroNumeroStr = Integer.toString(otroNumeroInt);
+        System.out.println("Numero entero convertido a cadena: " + otroNumeroStr);
+
+        otroNumeroStr = String.valueOf(otroNumeroInt++);
+        System.out.println("Numero entero convertido a cadena: " + otroNumeroStr);
+
+        double otroRealDouble = 1.23456e2;
+        String otroRealStr = Double.toString(otroRealDouble);
+        System.out.println("Numero double convertido a cadena: " + otroRealStr);
+
+        otroRealStr = String.valueOf(1.23456e2f);
+        System.out.println("Numero double convertido a cadena: " + otroRealStr);
+
+        int i = 10000;
+        short s = (short) i;
+        System.out.println("Valor short: " + s);
+        long l = i;
+        System.out.println("Valor long: " + l);
+        System.out.println(Short.MAX_VALUE);
     }
 }
